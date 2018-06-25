@@ -151,14 +151,14 @@ requisitions_d7 = FormsCollection(
 requisitions_d10 = FormsCollection(
     Requisition(
         show_order=20,
-        panel=chemistry_panel, required=False, additional=False),
+        panel=chemistry_panel, required=True, additional=False),
     name='requisitions_day10'
 )
 
 requisitions_d12 = FormsCollection(
     Requisition(
         show_order=20,
-        panel=chemistry_panel, required=False, additional=False),
+        panel=chemistry_panel, required=True, additional=False),
     name='requisitions_day12'
 )
 

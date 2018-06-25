@@ -11,12 +11,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='ambition-visit-schedule',
-    version='0.1.2',
+    version='0.1.3',
     author=u'Leslie Kepaletswe',
     author_email='leslie.kep@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/ambition-visit-schedule',
+    url='https://github.com/ambition-study/ambition-visit-schedule',
     license='GPL license, see LICENSE',
     description='ambition viist schedule',
     long_description=README,
